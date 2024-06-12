@@ -53,6 +53,7 @@ berikut adalah prediksi dari model :
 
 Analisis hasil pelatihan menunjukkan bahwa model belajar dengan baik dalam 100 epoch yang dijalankan, dengan nilai loss yang semakin menurun dan akurasi yang semakin meningkat setiap epoch-nya. Hal ini menunjukkan potensi peningkatan kinerja model jika dilatih dengan lebih banyak epoch.
 Program ini merupakan implementasi yang baik untuk memahami konsep dasar pengolahan citra menggunakan CNN, augmentasi data, pelatihan model, evaluasi kinerja model, dan prediksi. Dengan menambahkan lebih banyak data dan melatih model dengan lebih banyak epoch, kemungkinan dapat meningkatkan akurasi klasifikasi.
+model di impor dengan tflite pada file model.tflite diatas
 
 ## Anggota Kelompok 
 1. Dimas Teguh Ramadhani        (21102145)
