@@ -31,10 +31,11 @@ Dense layer dengan 256 neuron, fungsi aktivasi ReLU.
 Dense layer output dengan 4 neuron (sesuai jumlah kategori), fungsi aktivasi softmax.
 
 4. Pelatihan Model
-![image](https://github.com/DimasTeguhR/tubes-pengenalan-pola/assets/60166666/ba406d07-3c2e-4323-92fd-f724a04a7df6)
 
 Model CNN dilatih menggunakan metode model.fit dengan batch size 64, jumlah epoch 100, dan menggunakan callback untuk menghentikan pelatihan jika akurasi mencapai 0.92.
 Data pelatihan dan validasi diambil dari direktori yang telah di-augmentasi sebelumnya.
+berikut adalah dokumentasi pelatihan model:
+![image](https://github.com/DimasTeguhR/tubes-pengenalan-pola/assets/60166666/ba406d07-3c2e-4323-92fd-f724a04a7df6)
 
 5. Evaluasi Model
 
@@ -45,6 +46,8 @@ Model yang sudah dilatih akan diubah ke format TensorFlow Lite untuk keperluan d
 
 Setelah pelatihan, program memungkinkan pengguna untuk mengunggah gambar untuk diprediksi kategori mana gambar tersebut.
 Model CNN akan memprediksi kategori gambar (cloudy, desert, green area, water) dan menampilkan hasil prediksi.
+berikut adalah prediksi dari model :
+![image](https://github.com/DimasTeguhR/tubes-pengenalan-pola/assets/60166666/a715d010-be8e-49b9-822e-42b8489e7a7c)
 
 7. Analisis Hasil
 
