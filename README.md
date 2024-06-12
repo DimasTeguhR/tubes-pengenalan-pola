@@ -31,6 +31,7 @@ Dense layer dengan 256 neuron, fungsi aktivasi ReLU.
 Dense layer output dengan 4 neuron (sesuai jumlah kategori), fungsi aktivasi softmax.
 
 4. Pelatihan Model
+![image](https://github.com/DimasTeguhR/tubes-pengenalan-pola/assets/60166666/ba406d07-3c2e-4323-92fd-f724a04a7df6)
 
 Model CNN dilatih menggunakan metode model.fit dengan batch size 64, jumlah epoch 100, dan menggunakan callback untuk menghentikan pelatihan jika akurasi mencapai 0.92.
 Data pelatihan dan validasi diambil dari direktori yang telah di-augmentasi sebelumnya.
