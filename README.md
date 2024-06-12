@@ -43,12 +43,12 @@ Model yang sudah dilatih akan diubah ke format TensorFlow Lite untuk keperluan d
 
 6. Prediksi
 
-Setelah pelatihan, program memungkinkan pengguna untuk mengunggah gambar untuk diprediksi kategori mana gambar tersebut termasuk.
+Setelah pelatihan, program memungkinkan pengguna untuk mengunggah gambar untuk diprediksi kategori mana gambar tersebut.
 Model CNN akan memprediksi kategori gambar (cloudy, desert, green area, water) dan menampilkan hasil prediksi.
 
 7. Analisis Hasil
 
-Analisis hasil pelatihan menunjukkan bahwa model belajar dengan baik dalam 10 epoch yang dijalankan, dengan nilai loss yang semakin menurun dan akurasi yang semakin meningkat setiap epoch-nya. Hal ini menunjukkan potensi peningkatan kinerja model jika dilatih dengan lebih banyak epoch.
+Analisis hasil pelatihan menunjukkan bahwa model belajar dengan baik dalam 100 epoch yang dijalankan, dengan nilai loss yang semakin menurun dan akurasi yang semakin meningkat setiap epoch-nya. Hal ini menunjukkan potensi peningkatan kinerja model jika dilatih dengan lebih banyak epoch.
 Program ini merupakan implementasi yang baik untuk memahami konsep dasar pengolahan citra menggunakan CNN, augmentasi data, pelatihan model, evaluasi kinerja model, dan prediksi. Dengan menambahkan lebih banyak data dan melatih model dengan lebih banyak epoch, kemungkinan dapat meningkatkan akurasi klasifikasi.
 
 ## Anggota Kelompok 
